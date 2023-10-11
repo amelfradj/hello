@@ -3,58 +3,29 @@
     margin: 0;
 }
 header{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background: wheat
- }
-header nav ul li {
-    margin : 0 20px;
-
-}
-
-header nav ul {
-    height: 50px; /**hauteur de la UL**/
-    display: flex; /**premettre aux enfants liste les uns a coté des autres**/
-    list-style: none; /* enleve les ronds de la liste */
-    align-items: center; /**répartition sur la hauteur**/
-    justify-content: flex-end; /*repartition sur la largeur*/
-   
-
-}
-header div{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
-    
-    
+
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
 }
 button{
-    padding: 10px;
+    margin: 0 5px;
+    padding: 20px;
+    background: palevioletred;
 }
-#poeme{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 100px;
+header h1{
+display: flex;
+justify-content: flex-start;
+align-items: center;
 }
-
-p{
-    padding-top: 200px;
-    text-align: center;
-    margin: 50px 50px;
-}
-.title{
-    text-transform: capitalize;
-    text-align: center;
-    flex-direction: column;
-    box-sizing: 50px
+main{
     
-
+     flex-direction: column;
+    text-align: center;
+  
+    
 }
-    .titre{
-        text-transform: uppercase;
-    }
